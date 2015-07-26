@@ -62,8 +62,6 @@ dfn {
 h1 {
   margin: .67em 0;
   font-size: 2em;
-  text-align: center;
-  font-family: cursive;
 }
 mark {
   color: #000;
@@ -1174,11 +1172,13 @@ hr {
 [role="button"] {
   cursor: pointer;
 }
+h1,
 h2,
 h3,
 h4,
 h5,
 h6,
+.h1,
 .h2,
 .h3,
 .h4,
@@ -4020,7 +4020,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-left: -1px;
 }
 .nav {
-  padding-left: 20;
+  padding-left: 0;
   margin-bottom: 0;
   list-style: none;
 }
@@ -4031,7 +4031,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15;
+  padding: 10px 15px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
