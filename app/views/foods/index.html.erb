@@ -1,15 +1,55 @@
-<h2> My favorite way to unwind is by cooking and baking.</h2>
+<h2>Cooking Highlights</h2>
 
-<h3> I love to cook tasty and healthy food, and also animal shaped cookies. Penguin shaped and dolphin shaped ice cubes exist!<h3>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-4 center">
+      <p>
+        Ice cream machines are great to create novelty ice creams.
+      </p>
+    </div>
+    <div class="col-md-4 center">
+        <ul class="list">
+          <li class="none bold">Lactose-Free Strawberry Ice Cream</li>
+          <li class="none sm">Serves 4</li><br>
+          <li class="none sm">1 cup of chopped fresh strawberries</li>
+          <li class="none sm">1 cup of lactose-free milk</li>
+          <li class="none sm">1/4 cup of sugar</li>
+          <li class="none sm">Blend all ingredients till homogenous.</li>
+          <li class="none sm">Pour mix into ice cream machine.</li>
+        </ul>
 
-<h3>I bought a non-electic ice cream machine. Tasty lactate-free ice cream and an arm work-out.</h3>
+    </div>
+    <div class="col-md-4 center"><br>
+      <%= image_tag("icecream.png", size: "250x250") %>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row lg-padding">
+    <div class="col-md-4 center">
+      <p>
+        My most recent food adventure was cooking cornish hen for the first time. It was super simple to cook.
+      </p>
+      <p><%= image_tag("hen.jpg", size: "200x150") %></p>
+    </div>
+    <div class="col-md-4 center">
+      <ul class="list">
+        <li class="none bold">Cornish Hen</li>
+        <li class="none sm">Each hen is for one person</li><br>
+        <li class="none sm">Place a slice of butter under the skin of the hen.</li>
+        <li class="none sm">Season with black pepper &amp; salt.</li>
+        <li class="none sm">Roast in oven at 375&deg;F for an hour.</li>
+        <br><br><li class="none sm">Eat!</li>
+      </ul>
+    </div>
+    <div class="col-md-4 center">
+      <ul class="list">
+        <li class="none"><%= image_tag("hensalad.jpg", size: "300x225") %></li>
+      </ul>
+    </div>
+  </div>
+</div>
 
-<h3>My most recent food adventure was cooking cornish hen for the first time. It was super simple to cook.</h3>
+<br><p><%= link_to 'Home Page', root_path %></p>
 
-<h4>Place a slice of butter under the skin of the hen. Season with black pepper & salt. Roast in oven at 375 degrees fahreinheit for an hour. Eat!</h4>
-
-<%= image_tag("hen.jpg", size: "60x60") %>
-<%= image_tag("hensalad.jpg", size: "60x60") %>
-
-<%= link_to 'Home Page', root_path %>
 
