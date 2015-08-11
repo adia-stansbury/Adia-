@@ -89,6 +89,14 @@
 </div>
 <div class="container-fluid">
   <div class="row sm-padding">
+    <div class="col-md-16 center"
+      <h3>Total Runs by Distance</h3>
+      <%= pie_chart @runs.group(:distance).count %>
+    </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row sm-padding">
     <div class="col-md-4 center">
       <%= image_tag("gobble.png", size:"300x300") %>
     </div>

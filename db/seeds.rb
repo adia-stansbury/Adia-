@@ -5,3 +5,18 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+Run.delete_all
+Run.create distance: 'marathon'
+Run.create distance: 'half-marathon'
+Run.create distance: 'half-marathon'
+Run.create distance: 'half-marathon'
+Run.create distance: '10K'
+Run.create distance: '5K'
+Run.create distance: '5K'
+Run.create distance: '5K'
+Run.create distance: '5K'
+Run.create distance: '5K'
+Run.create distance: '5K'
+Run.create distance: '4 miles'
+Run.create distance: '2.35 miles'
+Run.create distance: '1 mile'
