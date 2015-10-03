@@ -9,6 +9,10 @@ body {
   text-align: center;
 }
 
+.content {
+  margin: 55px;
+}
+
 div.center {
   font-size: 25px;
 }
@@ -29,6 +33,29 @@ h2 {
   margin-bottom: 80px;
 }
 
+.image {
+  background-image: url(<%= asset_path 'venicebeach.jpg' %>);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 105%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.image.name {
+  width: 40%;
+  height: 40%;
+  line-height: 155%;
+
+  h1 {
+    position: center;
+  }
+}
+
 nav.navbar.navbar-default {
   margin: 0px;
 }
@@ -43,10 +70,12 @@ ul.list li {
   color: #000000;
   list-style: none;
   text-decoration: underline;
+  font-size: 18px;
 }
 
 ul.list li.none {
   text-decoration: none;
+  font-size: 25px;
 }
 
 ul.list li.bold {
@@ -60,6 +89,8 @@ ul.list li.sm {
 table {
   font-size: 15px;
 }
+
+
 
 
 
